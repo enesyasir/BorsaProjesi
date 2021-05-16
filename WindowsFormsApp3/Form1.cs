@@ -32,11 +32,12 @@ namespace WindowsFormsApp3
         {
             UserManager userManager = new UserManager();
             List<User> users = new List<User>();
-            users = userManager.CreateList();
+            users = userManager.GetList();
+
 
             AdminManager adminManager = new AdminManager();
             List<Admin> admins = new List<Admin>();
-            admins = adminManager.CreateAdminList();
+            admins = adminManager.GetList();
 
             int i = 0;
 

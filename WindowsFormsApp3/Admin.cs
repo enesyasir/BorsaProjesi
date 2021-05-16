@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class Admin
+    public class Admin:IEntity
     {
         public string AdminTcNo { get; set; }
         public string AdminSifre { get; set; }

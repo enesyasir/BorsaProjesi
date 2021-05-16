@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 namespace WindowsFormsApp3
 {
     
-    class AdminManager
+    class AdminManager:IAdminService
     {
         List<Admin> admins= new List<Admin>();
         SqlConnection con;
@@ -19,7 +19,7 @@ namespace WindowsFormsApp3
             con = new SqlConnection("Data Source=LAPTOP-Q3V1DGN9\\SQLEXPRESS;Initial Catalog=YazilimYapimi;Integrated Security=True");
         }
 
-        public List<Admin> CreateAdminList()
+        public List<Admin> GetList()
         {
             string sql = "Select *from Admin";
             con.Open();

@@ -40,7 +40,7 @@ namespace WindowsFormsApp3
             // lblKullaniciAdi
             // 
             this.lblKullaniciAdi.AutoSize = true;
-            this.lblKullaniciAdi.Location = new System.Drawing.Point(41, 93);
+            this.lblKullaniciAdi.Location = new System.Drawing.Point(12, 30);
             this.lblKullaniciAdi.Name = "lblKullaniciAdi";
             this.lblKullaniciAdi.Size = new System.Drawing.Size(88, 17);
             this.lblKullaniciAdi.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace WindowsFormsApp3
             // lblSifre
             // 
             this.lblSifre.AutoSize = true;
-            this.lblSifre.Location = new System.Drawing.Point(41, 131);
+            this.lblSifre.Location = new System.Drawing.Point(12, 68);
             this.lblSifre.Name = "lblSifre";
             this.lblSifre.Size = new System.Drawing.Size(41, 17);
             this.lblSifre.TabIndex = 1;
@@ -57,21 +57,21 @@ namespace WindowsFormsApp3
             // 
             // txtKullaniciAdi
             // 
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(135, 93);
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(106, 30);
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(100, 22);
             this.txtKullaniciAdi.TabIndex = 2;
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(135, 131);
+            this.txtSifre.Location = new System.Drawing.Point(106, 68);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(100, 22);
             this.txtSifre.TabIndex = 3;
             // 
             // btnGiris
             // 
-            this.btnGiris.Location = new System.Drawing.Point(242, 187);
+            this.btnGiris.Location = new System.Drawing.Point(162, 96);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(98, 47);
             this.btnGiris.TabIndex = 4;
@@ -82,7 +82,7 @@ namespace WindowsFormsApp3
             // lnkUye
             // 
             this.lnkUye.AutoSize = true;
-            this.lnkUye.Location = new System.Drawing.Point(362, 217);
+            this.lnkUye.Location = new System.Drawing.Point(276, 126);
             this.lnkUye.Name = "lnkUye";
             this.lnkUye.Size = new System.Drawing.Size(51, 17);
             this.lnkUye.TabIndex = 5;
@@ -94,7 +94,7 @@ namespace WindowsFormsApp3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 427);
+            this.ClientSize = new System.Drawing.Size(338, 219);
             this.Controls.Add(this.lnkUye);
             this.Controls.Add(this.btnGiris);
             this.Controls.Add(this.txtSifre);

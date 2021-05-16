@@ -7,9 +7,9 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp3
 {
-    public class ProductManager
+    public class ProductManager:IProductService
     {
-        List<Product> products = new List<Product>();
+        List<Product> products=new List<Product>();
         
         SqlConnection con;
         SqlCommand cmd;
@@ -20,7 +20,7 @@ namespace WindowsFormsApp3
         }
         
 
-        public List<Product> CreateList()
+        public List<Product> GetList()
         {
             string sql = "Select *from Urunler";
             con.Open();
@@ -40,7 +40,6 @@ namespace WindowsFormsApp3
             }
             con.Close();
             return products;
-
         }
     }
 }

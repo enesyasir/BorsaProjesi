@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    public class User
+    public class User:IEntity
     {
-       
-
+      
         public string userId { get; set; }
         public string Ad { get; set; }
         public string Soyad { get; set; }
